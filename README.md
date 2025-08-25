@@ -1,4 +1,4 @@
-#**Whack-a-Mole 🎮**
+#Whack-a-Mole 🎮
 
 Part of the Arcade Shack mobile project
 
