@@ -1,0 +1,4 @@
+repository "Whack-a-Mole@Mavrius@cloud"
+  path "/"
+    br "/main"
+    co "/main"
