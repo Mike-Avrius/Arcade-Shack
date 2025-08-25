@@ -1,3 +1,0 @@
-C:\The Only One\Projects\Unity Projects\Whack-a-Mole\Whack-a-Mole\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
-C:\The Only One\Projects\Unity Projects\Whack-a-Mole\Whack-a-Mole\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
-C:\The Only One\Projects\Unity Projects\Whack-a-Mole\Whack-a-Mole\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
