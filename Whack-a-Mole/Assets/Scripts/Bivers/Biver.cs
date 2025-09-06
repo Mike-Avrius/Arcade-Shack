@@ -14,12 +14,10 @@ public class Biver : MonoBehaviour
 
     private IEnumerator DelayedDeath()
     {
-        // Подождем 1 кадр на всякий случай, чтобы StageManager успел установиться
         yield return null;
 
         float actualLifeTime = GetLifeTimeFromStage();
-
-        // 🔧 Отладка: выводим фазу и время жизни в консоль
+        
         Debug.Log($"[Biver] CurrentStage: {stageManager.currentStage}, LifeTime: {actualLifeTime}");
 
         yield return new WaitForSeconds(actualLifeTime);
