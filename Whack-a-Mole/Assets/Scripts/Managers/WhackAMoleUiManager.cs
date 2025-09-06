@@ -4,9 +4,9 @@ using TMPro;
 using UnityEngine.UI;
 
 
-public class UiManager : MonoBehaviour
+public class WhackAMoleUiManager : MonoBehaviour
 {
-    public static UiManager Instance { get; private set; }
+    public static WhackAMoleUiManager Instance { get; private set; }
 
     public TextMeshProUGUI scoreValue;
     public TextMeshProUGUI timervalue;

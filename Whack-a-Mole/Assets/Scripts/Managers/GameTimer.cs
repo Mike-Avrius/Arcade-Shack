@@ -16,7 +16,7 @@ public class GameTimer : MonoBehaviour
 
     private void Start()
     {
-        if (UiManager.Instance == null)
+        if (WhackAMoleUiManager.Instance == null)
             Debug.LogError("UiManager.Instance is null!");
     }
 
@@ -34,13 +34,13 @@ public class GameTimer : MonoBehaviour
         {
             _RoundTime -= Time.deltaTime;
             int displayedTime = Mathf.CeilToInt(_RoundTime);
-            UiManager.Instance.UpdateTimer(displayedTime);
+            WhackAMoleUiManager.Instance.UpdateTimer(displayedTime);
         }
         else
         {
             _RoundTime = 0;
             gameManager.StopGeneration();
-            UiManager.Instance.UpdateTimer(0);
+            WhackAMoleUiManager.Instance.UpdateTimer(0);
             scoreAndTicketsManger.CalculateTickets();
             Debug.Log("Game finished");
         }
@@ -63,7 +63,7 @@ public class GameTimer : MonoBehaviour
     {
         _RoundTime = timeForTest; 
         startToCount = false;
-        UiManager.Instance.UpdateTimer(0);
+        WhackAMoleUiManager.Instance.UpdateTimer(0);
     }
 
     

@@ -11,8 +11,8 @@ public class GameManager : MonoBehaviour
         gameTimer.ResetTimer();
         gameTimer.startToCount = true;  
         biverGenerator.startGeneration = true;
-        UiManager.Instance.StartButtonStatuc(false);
-        UiManager.Instance.TicketsTextStatuc(false);
+        WhackAMoleUiManager.Instance.StartButtonStatuc(false);
+        WhackAMoleUiManager.Instance.TicketsTextStatuc(false);
         scoreAndTicketsManger.ReStoreScore();
     }
     public void StopGeneration()
@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         gameTimer.startToCount = false;  
         biverGenerator.StopAndReset(); 
         biverGenerator.startGeneration = false;
-        UiManager.Instance.StartButtonStatuc(true);
-        UiManager.Instance.TicketsTextStatuc(true);
+        WhackAMoleUiManager.Instance.StartButtonStatuc(true);
+        WhackAMoleUiManager.Instance.TicketsTextStatuc(true);
     }
 }
